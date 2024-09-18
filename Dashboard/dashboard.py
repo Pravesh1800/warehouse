@@ -59,7 +59,7 @@ if selected == "Dashboard" :
             location = st.selectbox("Select the location.",("Dubai",'Sharjah','Ajman','Abu Dhabi'))
         
         
-        video_file = open("E:/Barrel Detection/Dashboard/video.mp4", "rb")
+        video_file = open("Dashboard/video.mp4", "rb")
         video_bytes = video_file.read()
 
         st.video(video_bytes,loop=True,autoplay=True,)
