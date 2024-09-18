@@ -9,8 +9,8 @@ st.set_page_config(layout="wide")
 
 
 
-logo = r"E:\Barrel Detection\Dashboard\short_logo.png"
-sidebar_logo = r"E:\Barrel Detection\Dashboard\logo-removebg-preview.png"
+logo = "Dashboard/short_logo.png"
+sidebar_logo = "Dashboard/logo-removebg-preview.png"
 
 
 st.logo(sidebar_logo, icon_image=logo)
